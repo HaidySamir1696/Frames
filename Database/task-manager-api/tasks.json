@@ -1,0 +1,120 @@
+{ 
+    "_id" : ObjectId("6068feb797632e3cb019b52c"), 
+    "title" : "AlMarasem-Fifth Square", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "undefined", 
+    "avatar" : "http://localhost:3000/images/town_copy.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:48:07.379+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:48:07.379+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6068ff2d97632e3cb019b52d"), 
+    "title" : "Hassan Allam - Swane Lake Residence", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "4", 
+    "avatar" : "http://localhost:3000/images/courtyard-apartments.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:50:05.273+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:50:05.273+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6068ffb997632e3cb019b52e"), 
+    "title" : "Arabtec-Marassi Celia", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "3", 
+    "avatar" : "http://localhost:3000/images/screen-shot-2020-05-02-at-3.31.39-pm.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:52:25.377+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:52:25.377+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069002197632e3cb019b52f"), 
+    "title" : "Orascom-R5", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "5", 
+    "avatar" : "http://localhost:3000/images/6366068785681516528.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:54:09.017+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:54:09.017+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069006697632e3cb019b530"), 
+    "title" : "HYDE PARK-CLUSTER 19A-20C", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "7", 
+    "avatar" : "http://localhost:3000/images/1e0fee7a-9db6-4b7d-92fc-52f92d585e68.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:55:18.667+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:55:18.667+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("606900de97632e3cb019b531"), 
+    "title" : "Hassan Allam-Alborouj", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "1", 
+    "avatar" : "http://localhost:3000/images/terrace-2.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:57:18.953+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:57:18.953+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069014f97632e3cb019b532"), 
+    "title" : "Dorra Fit Out-Grand Heights", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "6", 
+    "avatar" : "http://localhost:3000/images/02_4.jpg", 
+    "createdAt" : ISODate("2021-04-03T23:59:11.196+0000"), 
+    "updatedAt" : ISODate("2021-04-03T23:59:11.196+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("606901f097632e3cb019b533"), 
+    "title" : "Dorra-Mixed Use", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "7", 
+    "avatar" : "http://localhost:3000/images/dorra-mixed_use.jpg", 
+    "createdAt" : ISODate("2021-04-04T00:01:52.447+0000"), 
+    "updatedAt" : ISODate("2021-04-04T00:01:52.447+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069040497632e3cb019b534"), 
+    "title" : "Solid - Royal Villas", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "2", 
+    "avatar" : "http://localhost:3000/images/solid_-_royal_villas.jpeg", 
+    "createdAt" : ISODate("2021-04-04T00:10:44.666+0000"), 
+    "updatedAt" : ISODate("2021-04-04T00:10:44.666+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069049f97632e3cb019b535"), 
+    "title" : "Gama-Alborouj business park", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "2", 
+    "avatar" : "http://localhost:3000/images/whatsapp_image_2021-03-18_at_11.28.29_(1).jpeg", 
+    "createdAt" : ISODate("2021-04-04T00:13:19.083+0000"), 
+    "updatedAt" : ISODate("2021-04-04T00:13:19.083+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("6069051e97632e3cb019b536"), 
+    "title" : "الكيان العسكرى-مبنى السنترال", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "3", 
+    "avatar" : "http://localhost:3000/images/whatsapp_image_2021-03-28_at_07.33.41_(3).jpeg", 
+    "createdAt" : ISODate("2021-04-04T00:15:26.349+0000"), 
+    "updatedAt" : ISODate("2021-04-04T00:15:26.349+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("606905c497632e3cb019b537"), 
+    "title" : "Redcon-Alborouj", 
+    "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+    "productID" : "2", 
+    "avatar" : "http://localhost:3000/images/5e93495289dc2008831928.jpeg", 
+    "createdAt" : ISODate("2021-04-04T00:18:12.866+0000"), 
+    "updatedAt" : ISODate("2021-04-04T00:18:12.866+0000"), 
+    "__v" : NumberInt(0)
+}
