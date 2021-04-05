@@ -1,0 +1,19 @@
+.yellow{
+    color: #d5ac5d;
+}
+.blue{
+    color:#3f5ca2;
+}
+.project{
+    border: #d5ac5d solid 1px;
+    border-radius: 7px;
+    margin:5%;
+    padding:3%;
+}
+h1{
+    margin:5%
+}
+
+div{
+    word-wrap: break-word;
+}

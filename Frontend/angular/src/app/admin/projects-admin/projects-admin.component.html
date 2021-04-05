@@ -1,0 +1,103 @@
+<button class="btn btn-outline-primary" type="button" style="margin-left: 80%;" routerLink="/addProject">Add Project</button>
+<div>
+    <div class="text-center">
+        <h1 class=" yellow">Our projects </h1>
+     </div>
+
+
+<div *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+    <div class="row project">
+        <div class="col-md-4 col-12 p-2">
+            <img class="w-100" src={{project.avatar}} alt="project img">
+        </div>
+        <div class="col-md-8 col-12 p-2 text-center"> 
+            <h3 class="yellow ">{{project.title}}</h3>
+            <h4>{{project.description}} </h4>
+        </div>
+    </div>
+</div>
+  <!--  <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <h2 class="blue">Certain walls</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12 p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-2 text-center"> 
+            <h3 class="yellow ">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>
+    <div class="p-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+        <h2 class="blue">Doors and windows</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12 p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-2 text-center"> 
+            <h3 class="yellow">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>
+    <div class="p-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+        <h2 class="blue">Louvers</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12 p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-4  text-center"> 
+            <h3 class="yellow">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>
+    <div class="p-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+        <h2 class="blue">Aluminum cladding</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-4  text-center"> 
+            <h3 class="yellow">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>
+    <div class="p-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+        <h2 class="blue">Steel / Aluminum sheds</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12 p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-4 text-center"> 
+            <h3 class="yellow">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>
+    <div class="p-2"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1750">
+        <h2 class="blue">Steel / Aluminum handrails</h2>
+        <div class="row project">
+            <div class="col-md-4 col-12 p-2">
+                <img class="w-100" src="assets/imgs/55.jpeg" alt="project img">
+            </div>
+            <div class="col-md-8 col-12 p-4  text-center"> 
+            <h3 class="yellow">Project Title</h3>
+            <h4>project description project description project description project description project description project description project description project description
+                project description project description project description
+            </h4>
+            </div>
+        </div>
+    </div>-->
+</div>
