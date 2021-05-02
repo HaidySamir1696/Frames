@@ -6,33 +6,12 @@
 
 .yellow{
     color: #d5ac5d;
-}
+    margin-top: 3%;
+    text-align: center;}
 .blue{
     color:#3f5ca2;
-    border: #d5ac5d solid 1px;
-    border-radius: 7px;
-    margin:5%;
-    padding:3%;
+}
+label{
+    padding:5px
 }
 
-
-div{
-    word-wrap: break-word;
-}
-
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #d5ac5d;
-  }
-
-
-/*@media only screen and (max-width: 970px) {
-  
-    .centered {
-        display:none
-    }
-}*/

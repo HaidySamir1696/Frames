@@ -4,3 +4,24 @@ h2{
 img{
     filter: brightness(50%);
 }
+.view {
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 27%;
+    height:35px !important;
+    margin-left:35%;
+    background-color: #d5ac5d;
+  }
+.home-about{
+    background-color:#d5ac5d;  
+    color:white;
+    padding:3% 10%;  
+}
+.home-about h2{
+    color:white;
+
+}
+.blue{
+    color:#3f5ca2;
+}

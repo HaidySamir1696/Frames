@@ -9,6 +9,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './admin/login/login.component';
 import { AddImgComponent } from './admin/add-img/add-img.component';
+import { CompanyProfileComponent } from './components/company-profile/company-profile.component';
+import { AddProductComponent } from './admin/add-product/add-product.component';
 
 const routes: Routes = [
   {
@@ -46,8 +48,14 @@ const routes: Routes = [
   {
     path:"addImg",
     component:AddImgComponent
+  },{
+    path:"profile",
+    component:CompanyProfileComponent
+  },
+  {
+  path:"addProduct",
+  component:AddProductComponent
   }
-
 ];
 
 @NgModule({

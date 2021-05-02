@@ -1,0 +1,92 @@
+<div style="margin-bottom: 70px;" class="p-5">
+    <h2 class="text-center p-2" style="color:#3f5ca2">Add Product</h2>
+   
+    <form  class="w-50 m-auto p-2"
+    #myForm="ngForm"
+    >
+    
+        <div class="container p-2">
+        <label class="p-2"  style="color:#3f5ca2"><b> Product Title</b></label>
+        <input 
+        type="text"
+        placeholder="Project Title"
+        class="form-control"
+        id="title"
+        required
+        name="title"
+        [(ngModel)]='product.title'
+        #title="ngModel" 
+         >
+        <label class="p-2"  style="color:#3f5ca2"><b>Description</b></label>
+        <textarea 
+        placeholder="Description" 
+        rows="5"
+        class="form-control"
+        id="description"
+        required
+        name="description"
+        [(ngModel)]='this.product.description'
+        #description="ngModel"
+        ></textarea>
+        <label class="p-2"  style="color:#3f5ca2"><b>Main image</b></label>
+        <div class="input-group p-2">
+            <input 
+            type="file" 
+            class="form-control" 
+            aria-describedby="inputGroupFileAddon04" 
+            aria-label="Upload"
+            id="avatar"
+            name="avatar"
+            (change)='onFileSelected($event)'
+            #imageInput
+            >
+        </div>
+
+
+        <label class="p-2"  style="color:#3f5ca2"><b>Section image</b></label>
+        <div class="input-group p-2">
+            <input 
+            type="file" 
+            class="form-control" 
+            aria-describedby="inputGroupFileAddon04" 
+            aria-label="Upload"
+            id="avatar1"
+            name="avatar1"
+            (change)='onFileSelected1($event)'
+            #imageInput
+            >
+        </div>
+
+        <label class="p-2"  style="color:#3f5ca2"><b>Section image</b></label>
+        <div class="input-group p-2">
+            <input 
+            type="file" 
+            class="form-control" 
+            aria-describedby="inputGroupFileAddon04" 
+            aria-label="Upload"
+            id="avatar2"
+            name="avatar2"
+            (change)='onFileSelected2($event)'
+            #imageInput
+            >
+        </div>
+
+        <label class="p-2"  style="color:#3f5ca2"><b>Section image</b></label>
+        <div class="input-group p-2">
+            <input 
+            type="file" 
+            class="form-control" 
+            aria-describedby="inputGroupFileAddon04" 
+            aria-label="Upload"
+            id="avatar3"
+            name="avatar3"
+            (change)='onFileSelected3($event)'
+            #imageInput
+            >
+        </div>
+            
+        <button class="btn" type="submit" (click)="formSubmit()" [disabled]="isDisabled()"> ADD </button>
+        </div>
+    
+    </form>
+</div>    

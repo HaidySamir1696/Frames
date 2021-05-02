@@ -19,6 +19,10 @@ import { ProjectsAdminComponent } from './admin/projects-admin/projects-admin.co
 import { AddProjectComponent } from './admin/add-project/add-project.component';
 import { AddImgComponent } from './admin/add-img/add-img.component';
 import { FormsModule } from '@angular/forms';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { CompanyProfileComponent } from './components/company-profile/company-profile.component';
+import { AddProductComponent } from './admin/add-product/add-product.component';
+import {SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,9 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     ProjectsAdminComponent,
     AddProjectComponent,
-    AddImgComponent
+    AddImgComponent,
+    CompanyProfileComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +49,8 @@ import { FormsModule } from '@angular/forms';
     FontAwesomeModule,
     HttpClientModule,
     FormsModule,
+    PdfViewerModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

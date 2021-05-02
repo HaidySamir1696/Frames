@@ -7,7 +7,8 @@
     
         <div class="container p-2">
             <label class="p-2" style="color:#3f5ca2"><b> Product </b></label>
-            <select class="p-2"  
+            <select 
+            class="p-2"  
             class="form-control" 
             id="productID"
             required
@@ -15,8 +16,7 @@
             [(ngModel)]='this.project.productID'
             #productID="ngModel"
             >
-                <option selected disabled>Choose...</option>
-                <option value="1">Certain walls</option>
+                <option value="1">Curtain walls</option>
                 <option value="2">Doors and windows</option>
                 <option value="3">Louvers</option>
                 <option value="4">Aluminum cladding</option>
@@ -24,6 +24,7 @@
                 <option value="6">Steel / Aluminum handrails</option>
                 <option value="7">Glass doors</option>
             </select>  
+            <br>
         <label class="p-2"  style="color:#3f5ca2"><b> Project Title</b></label>
         <input 
         type="text"
@@ -35,17 +36,42 @@
         [(ngModel)]='project.title'
         #title="ngModel" 
          >
-        <label class="p-2"  style="color:#3f5ca2"><b>Description</b></label>
-        <textarea 
-        placeholder="Description" 
-        rows="5"
-        class="form-control"
-        id="description"
-        required
-        name="description"
-        [(ngModel)]='this.project.description'
-        #description="ngModel"
-        ></textarea>
+         <br>
+         <label class="p-2"  style="color:#3f5ca2"><b> Project Owner</b></label>
+         <input 
+         type="text"
+         placeholder="Project Owner"
+         class="form-control"
+         id="project_owner"
+         required
+         name="project_owner"
+         [(ngModel)]='project.owner'
+         #title="ngModel" 
+          >
+          <br>
+          <label class="p-2"  style="color:#3f5ca2"><b> Consultant</b></label>
+          <input 
+          type="text"
+          placeholder="Consultant"
+          class="form-control"
+          id="consultant"
+          required
+          name="consultant"
+          [(ngModel)]='project.consultant'
+          #title="ngModel" 
+           >
+           <br>
+           <label class="p-2"  style="color:#3f5ca2"><b> Location</b></label>
+           <input 
+           type="text"
+           placeholder="Location"
+           class="form-control"
+           id="Location"
+           required
+           name="Location"
+           [(ngModel)]='project.location'
+           #title="ngModel" 
+            >
         <div class="input-group p-2">
             <input 
             type="file" 
@@ -53,7 +79,6 @@
             aria-describedby="inputGroupFileAddon04" 
             aria-label="Upload"
             id="avatar"
-            required
             name="avatar"
             (change)='onFileSelected($event)'
             [(ngModel)]='img'
