@@ -2,7 +2,7 @@ const express = require('express')
 const User = require('./models/user')
 const userRouter = require('./routers/user')
 const taskRouter = require('./routers/task')
-
+const productRouter = require('./routers/product')
 const Task = require('./models/task')
 
 const cors = require('cors')
@@ -22,6 +22,8 @@ app.use(express.json())
 // })
 // Register to our routers
 app.use(userRouter)
+
+app.use(productRouter)
 
 app.use(taskRouter)
 const path = require("path");  

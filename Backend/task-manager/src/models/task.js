@@ -6,13 +6,19 @@ const taskSchema = mongoose.Schema({
         trim:true,
       //  required:true
     },
-    description:{
-        type:String,
-        trim:true
-    },
     productID:{
         type:String
     },
+    
+    consultant:{
+        type:String
+    },
+    owner:{
+        type:String
+    },
+    location:{
+        type:String
+    }, 
     avatar:{
      // type:Buffer
      type:String

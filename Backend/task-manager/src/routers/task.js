@@ -229,15 +229,26 @@ const uploads = multer({
     
 
 // })
-
-//////////
+/////////
 router.post('/project/avatar',multer({storage:storage}).single('avatar'),async(req,res)=>{
     const url = req.protocol + '://'+ req.get("host");
+    var avatar=null
+    const file=req.file
+   if(!file)
+   {
+     avatar=null
+   }
+   else
+   {
+       avatar=url+"/images/"+req.file.filename
+   }
     const task = new Task({
         title:req.body.title,
-        description:req.body.description,
         productID:req.body.productID,
-        avatar:url+"/images/"+req.file.filename
+        consultant:req.body.consultant,
+        owner:req.body.owner,
+        location:req.body.location,
+        avatar:avatar
 
     })
 
@@ -256,10 +267,68 @@ router.post('/project/avatar',multer({storage:storage}).single('avatar'),async(r
     // }catch(e){
     //     res.send(e)
     // }
+})
+//////////
+// router.post('/project/avatar',multer({storage:storage}).single('avatar'),async(req,res)=>{
+//     const url = req.protocol + '://'+ req.get("host");
+//     const task = new Task({
+//         title:req.body.title,
+//         description:req.body.description,
+//         productID:req.body.productID,
+//         avatar:url+"/images/"+req.file.filename
+
+//     })
+
+//     try{
+
+//         await task.save()
+//         res.status(200).send(task)
+//     }catch(e){
+//         res.status(400).send(e)
+//     /// console.log(e)
+//     }
+//     // try{ 
+//     // .avatar = req.file.buffer
+//     // await req.user.save()
+//     // res.send()
+//     // }catch(e){
+//     //     res.send(e)
+//     // }
   
     
 
-})
+// })
 
+// router.post('/product/avatar',multer({storage:storage}).array('avatar'),async(req,res)=>{
+//   // const files=req.files
+//     const url = req.protocol + '://'+ req.get("host");
+//     const task = new Task({
+//         title:req.body.title,
+//         description:req.body.description,
+//         productID:req.body.productID,
+//         avatar:url+"/images/"+req.files[0].filename,
+//         avatar1:url+"/images/"+req.files[1].filename,
+//         avatar2:url+"/images/"+req.files[2].filename
 
+//     })
+
+//     try{
+
+//         await task.save()
+//         res.status(200).send(task)
+//     }catch(e){
+//         res.status(400).send(e)
+//     /// console.log(e)
+//     }
+//     // try{ 
+//     // .avatar = req.file.buffer
+//     // await req.user.save()
+//     // res.send()
+//     // }catch(e){
+//     //     res.send(e)
+//     // }
+  
+    
+
+// })
 module.exports = router
