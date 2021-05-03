@@ -11,6 +11,7 @@ import { LoginComponent } from './admin/login/login.component';
 import { AddImgComponent } from './admin/add-img/add-img.component';
 import { CompanyProfileComponent } from './components/company-profile/company-profile.component';
 import { AddProductComponent } from './admin/add-product/add-product.component';
+import { ProductAdminComponent } from './admin/product-admin/product-admin.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,10 @@ const routes: Routes = [
     component:ProjectsAdminComponent
   },
   {
+    path:"productAdmin",
+    component:ProductAdminComponent
+  },
+  {
     path:"addProject",
     component:AddProjectComponent
   },
@@ -56,6 +61,7 @@ const routes: Routes = [
   path:"addProduct",
   component:AddProductComponent
   }
+
 ];
 
 @NgModule({
