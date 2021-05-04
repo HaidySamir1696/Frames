@@ -20,13 +20,15 @@ div{
     color:white;
     background-color:black;
 }
-.odd  {   background-color:rgb(199, 174, 174);
-font-size:20px;} 
+.odd  {  
+     background-color:rgb(199, 174, 174);
+    font-size:20px;
+} 
 .even {  
-    
-font-size:20px;
+    font-size:20px;
     background-color: #5c7494; 
-color:rgb(192, 181, 181)}
+    color:rgb(192, 181, 181)
+}
 
 .main-img{
     filter: drop-shadow(5px 5px 5px #222222);
