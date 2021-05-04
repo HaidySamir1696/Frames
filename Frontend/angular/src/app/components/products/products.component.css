@@ -28,3 +28,9 @@ body .slick-next {
     background: #575d59 !important;
     z-index: 100;
 }
+.striped {
+    color:white;
+    background-color:black;
+}
+.odd  {   background-color: #f2f9ff;} 
+.even {   background-color: #5c7494; }

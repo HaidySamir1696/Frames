@@ -2,10 +2,12 @@
     <div class="text-center">
         <h1 class=" yellow">Our projects</h1>
      </div>
-
+     <div *ngFor="let product of products"  >
+         <h3>{{product.title}}</h3>
      <div class="row  g-4 p-5">
         <div *ngFor="let project of projects" class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <div class="card">
+              <div *ngIf="project.productID===product.title">
             <img src={{project.avatar}} class="card-img-top" alt="1"><br>
             <div class="card-body">
               <h3 class="card-title text-center yellow">{{project.title}}</h3>
@@ -15,10 +17,11 @@
               <p>{{project.location}}</p>
 
             </div>
+        </div>
           </div>
         </div>  
     </div> 
-
+</div>
 <!--
 <div *ngFor="let project of projects" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
     <div class="row project">

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from 'src/app/interfaces/product';
 import { Project } from 'src/app/interfaces/project';
 import { ProjectsService } from 'src/app/service/projects.service';
 
@@ -15,8 +16,15 @@ projects:Project[]=[]
       this.projects = res
     })
   }
+  products:Product[]=[]
+  getProducts(){
+    this.projectsService.getProducts().subscribe((res)=>{
+      this.products = res
+    })
+  }
   ngOnInit(): void {
     this.getProjects()
+    this.getProducts()
   }
 
 }
