@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompanyProfileComponent implements OnInit {
 
-  pdfSource =  "../../../assets/html.pdf";
+  pdfSource =  "../../../assets/frame.pdf";
 
 
   constructor() { }

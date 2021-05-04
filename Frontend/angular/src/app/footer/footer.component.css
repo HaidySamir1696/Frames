@@ -1,0 +1,37 @@
+.row{
+    margin-left: 3% ;
+    margin-right: 3%;
+}
+.navv{
+    padding-top: 3%;
+}
+.navv a{
+    text-decoration:none;
+    padding-bottom: 2% ; 
+    padding-top: 2%;
+}
+a ,label,span{
+    font-size:12px
+}
+
+.yellow{
+    color: #d5ac5d;
+}
+.logos,.navv ,.contact{
+    border-left: 2px solid#d5ac5d;
+
+}
+.logos div{
+    margin-left: 7%;
+    font-size:12px
+}
+span{
+    color:white
+}
+@media (max-width:768px) {
+.navv,.contact{
+    margin-bottom: 4%;
+}
+
+
+}

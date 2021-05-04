@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule}from '@angular/common/http';
@@ -22,6 +23,8 @@ import { FormsModule } from '@angular/forms';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { CompanyProfileComponent } from './components/company-profile/company-profile.component';
 import { AddProductComponent } from './admin/add-product/add-product.component';
+import { ProductAdminComponent } from './admin/product-admin/product-admin.component';
+import { NavAdminComponent } from './admin/nav-admin/nav-admin.component';
 import {SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
@@ -40,7 +43,10 @@ import {SlickCarouselModule } from 'ngx-slick-carousel';
     AddProjectComponent,
     AddImgComponent,
     CompanyProfileComponent,
-    AddProductComponent
+    AddProductComponent,
+    NavAdminComponent,
+    ProductAdminComponent
+    
   ],
   imports: [
     BrowserModule,
