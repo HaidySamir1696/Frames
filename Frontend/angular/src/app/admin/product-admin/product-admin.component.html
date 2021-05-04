@@ -1,0 +1,41 @@
+<app-nav-admin></app-nav-admin>
+
+<button class="btn btn-outline-primary" style="margin-left: 80%;margin-top: 1%;" type="button"  routerLink="/addProduct">Add Product</button>
+
+
+<div class="text-center">
+    <h1 class=" yellow">Our products</h1>
+  </div>
+  
+  
+  <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+    <div class="row product" >
+        <div class="col-md-4 col-12">
+           <!--<img class="w-100" src={{products[0].avatar}} alt="walls img">-->
+           <img class="w-100" src="assets/imgs/55.jpeg" alt="walls img">
+        </div>
+        <div class="col-md-8 col-12 p-2 text-center"> 
+            <h3 class="yellow ">{{products[0].title}}</h3>
+            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. I </h4>
+            <div class="row slider" >
+              <div class="d-flex">
+
+                <img src="assets/imgs/1.jpeg"  width="50" height="50">
+      
+                <img src="assets/imgs/2.jpeg"  width="50" height="50">
+                <img src="assets/imgs/3.jpeg" width="50" height="50">
+                
+                <img src="assets/imgs/1.jpeg"  width="50" height="50">
+      
+                <img src="assets/imgs/2.jpeg"  width="50" height="50">
+                <img src="assets/imgs/3.jpeg" width="50" height="50">
+
+              </div>
+            </div>    
+              <!-- <img src="{{ products[0].avatar1 }}" alt="" width="100%">
+                <img src="{{ products[0].avatar2 }}" alt="" width="100%">
+                <img src="{{ products[0].avatar3 }}" alt="" width="100%">-->
+        </div>       
+  </div>
+  </div>
+  
