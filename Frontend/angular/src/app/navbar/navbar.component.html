@@ -1,4 +1,4 @@
-
+  
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
   <div class="navbar-brand">
     <img src="assets/imgs/logo.png" alt="" width="90" height="90" class="d-inline-block align-top ml-5">
@@ -16,16 +16,16 @@
           About Us
         </a>
         <div class="dropdown-menu drop" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#" routerLink="/about" >About Frame</a>
-          <a class="dropdown-item" href="#" routerLink="/profile">Company profile</a>
+          <a class="dropdown-item" href="#"  style="color:rgba(255,255,255,0.5);" routerLink="/about" >About Frame</a>
+          <a class="dropdown-item" href="#"  style="color:rgba(255,255,255,0.5);" routerLink="/profile">Company profile</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" routerLink="/projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Projects
         </a>
         <div class="dropdown-menu drop" aria-labelledby="navbarDropdownMenuLink" *ngFor="let product of products">
-          <a *ngFor="let product of products" style="color: white;" class="dropdown-item" href="/projects/#{{product._id}}" >{{product.title}}</a>
+          <a *ngFor="let product of products" style="color:rgba(255,255,255,0.5);" class="dropdown-item" href="/projects#{{product._id}}" >{{product.title}}</a>
         </div>
       </li>
       <li class="nav-item">
