@@ -16,8 +16,12 @@ export class HomeComponent implements OnInit {
       this.products = res
     })
   }
+  id = this.route.snapshot.paramMap.get('id')
+
   ngOnInit(): void {
   this.getProducts()
+  window.location.href = '/projects#'+this.id ;
+
   }
 
 }
