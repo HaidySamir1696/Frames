@@ -26,7 +26,6 @@ import { AddProductComponent } from './admin/add-product/add-product.component';
 import { ProductAdminComponent } from './admin/product-admin/product-admin.component';
 import { NavAdminComponent } from './admin/nav-admin/nav-admin.component';
 import {SlickCarouselModule } from 'ngx-slick-carousel';
-import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -58,9 +57,7 @@ import { AgmCoreModule } from '@agm/core';
     FormsModule,
     PdfViewerModule,
     SlickCarouselModule,
-    AgmCoreModule.forRoot({
-      apiKey: ''
-    })
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/interfaces/product';
 import { Project } from 'src/app/interfaces/project';
 import { ProjectsService } from 'src/app/service/projects.service';
@@ -10,7 +11,7 @@ import { ProjectsService } from 'src/app/service/projects.service';
 })
 export class ProjectsComponent implements OnInit {
 projects:Project[]=[]
-  constructor(private projectsService:ProjectsService) { }
+  constructor(private projectsService:ProjectsService,private route:ActivatedRoute) { }
   getProjects(){
     this.projectsService.getProjects().subscribe((res)=>{
       this.projects = res
