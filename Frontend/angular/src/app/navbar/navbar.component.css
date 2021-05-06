@@ -4,18 +4,21 @@ a{
 }
 
 .navbar , .drop{
-    background-color: #322774 !important
+    background-color: #322774 !important;
+
 }
+
 .dropdown{
     border:0px;
 }
-.drop{
-    color:white !important;
-}
-a:hover{
-color:rgba(255,255,255,0.5)
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+a:hover , .drop:hover{
+color:white !important
 }
 
 .dropdown-menu a:hover{
-background-color:#322774 ;
+background-color:#322774 !important ;
+
 }
