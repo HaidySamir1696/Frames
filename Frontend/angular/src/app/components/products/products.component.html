@@ -9,7 +9,7 @@
   <div *ngFor="let product of products; index as i; odd as isOdd; even as isEven"
   [class.Odd]="isOdd" 
   [class.even]="isEven">
-       <div class="row product" >
+       <div class="row product" style="margin-top: 0px; margin-bottom: 0px;">
       <div class="col-md-4 col-12 p-2">
           <img class="w-100 main-img" width="700px" height="400px" src={{product.avatar}} alt="walls img">
       </div>

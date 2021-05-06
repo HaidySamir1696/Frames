@@ -20,14 +20,19 @@ div{
     color:white;
     background-color:black;
 }
-.odd  {  
-     background-color:rgb(199, 174, 174);
+.Odd  {  
+    background-color:rgb(233, 214, 214);
     font-size:20px;
+    padding: 0px;
+    margin: 0px;
+    color:#5c7494;
 } 
 .even {  
     font-size:20px;
     background-color: #5c7494; 
-    color:rgb(192, 181, 181)
+    color:rgb(192, 181, 181);
+    padding: 0px;
+    margin: 0px;
 }
 
 .main-img{
