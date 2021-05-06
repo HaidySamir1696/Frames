@@ -25,7 +25,7 @@
           Projects
         </a>
         <div class="dropdown-menu drop" aria-labelledby="navbarDropdownMenuLink" *ngFor="let product of products">
-          <a class="dropdown-item" href="/projects/#{{product._id}}" >{{product.title}}</a>
+          <a *ngFor="let product of products" style="color: white;" class="dropdown-item" href="/projects/#{{product._id}}" >{{product.title}}</a>
         </div>
       </li>
       <li class="nav-item">
@@ -38,7 +38,7 @@
         <a class="nav-link" href="#" routerLink="/contact">Contact Us <span>|</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://ad-vast.com/" >SISTER COMPANY</a>
+        <a class="nav-link" href="http://ad-vast.com/" >AD-VAST</a>
       </li>
       
     </ul>

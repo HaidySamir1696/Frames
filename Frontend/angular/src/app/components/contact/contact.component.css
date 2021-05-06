@@ -14,4 +14,7 @@
 label{
     padding:5px
 }
+agm-map {
+    height: 400px;
+  }
 

@@ -1,17 +1,9 @@
 <app-navbar></app-navbar>
 
 <div class="cotact">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img  class="d-block w-100"src="assets/imgs/map.png" alt="contact img">
-            </div>
-        </div>
-        </div>
-       
-  
-  
-  
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
       <div class="row justify-content-around">
         <div class="col-7">
             <h3 class=" yellow">CONTACT INFO </h3>
