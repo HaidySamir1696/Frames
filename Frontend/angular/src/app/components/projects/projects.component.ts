@@ -22,9 +22,17 @@ projects:Project[]=[]
       this.products = res
     })
   }
+  
+  id = this.route.snapshot.paramMap.get('id')
+
+
   ngOnInit(): void {
     this.getProjects()
     this.getProducts()
+    //this.router.navigate(['/projects#'+this.id])
+    console.log(this.id)
+
+    window.location.href = '/projects#'+this.id ;
   }
 
 }
