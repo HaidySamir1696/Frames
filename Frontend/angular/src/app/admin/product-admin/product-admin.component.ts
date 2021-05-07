@@ -22,7 +22,12 @@ export class ProductAdminComponent implements OnInit {
   this.getProducts()
   }
   title = 'ng-carousel-demo';
-  
+  delete(id:any){
+    this.projectsService.deleteProduct(id).subscribe((res)=>{
+   
+      console.log(res);
+    });
+  }
   slides = [
     {img: "https://dummyimage.com/350x150/423b42/fff"},
     {img: "https://dummyimage.com/350x150/2a2b7a/fff"},

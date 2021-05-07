@@ -8,7 +8,7 @@ const User = require('../models/user')
 const auth = async(req,res,next)=>{
     try{
         // Get token from req.header / extract
-        const token = req.header('Authorization').replace('Bearer ','')
+        const token = req.header('Authorization')
         console.log(token)
 
         // //Check token valid

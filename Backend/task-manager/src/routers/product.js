@@ -262,7 +262,7 @@ const uploads = multer({
 // })
 
 //new
-router.post('/product/avatar',multer({storage:storage}).array('avatar'),async(req,res)=>{
+router.post('/product/avatar',auth,multer({storage:storage}).array('avatar'),async(req,res)=>{
     // const files=req.files
       const url = req.protocol + '://'+ req.get("host");
       var avatar=null

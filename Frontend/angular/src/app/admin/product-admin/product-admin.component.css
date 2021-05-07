@@ -20,8 +20,20 @@ div{
     color:white;
     background-color:black;
 }
-.odd  {   background-color: #f2f9ff;} 
-.even {   background-color: #5c7494; }
+.Odd  {  
+    background-color:white;
+    font-size:20px;
+    padding: 0px;
+    margin: 0px;
+    color:#5c7494;
+} 
+.even {  
+    font-size:20px;
+    background-color: #5c7494; 
+    color:rgb(192, 181, 181);
+    padding: 0px;
+    margin: 0px;
+}
 
 .main-img{
     filter: drop-shadow(5px 5px 5px #222222);

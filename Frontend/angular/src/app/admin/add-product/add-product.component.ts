@@ -56,7 +56,7 @@ formSubmit()
     console.log(res);
     this.product = res;
   });
-  this.router.navigate(['/projectsAdmin'])
+  this.router.navigate(['/productAdmin'])
  // reader.readAsDataURL(file);
 } 
  

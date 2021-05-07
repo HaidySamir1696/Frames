@@ -40,6 +40,7 @@ onFileSelected(event:any){
  // reader.readAsDataURL(file);
 } 
   ngOnInit(): void {
+    this.getProducts()
   }
 
 

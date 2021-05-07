@@ -150,7 +150,7 @@ router.patch('/projects/:id', auth,async(req,res)=>{
 
 // Delete by id 
 
-router.delete('/projects/:id',async(req,res)=>{
+router.delete('/projects/:id',auth,async(req,res)=>{
     const _id = req.params.id
     try{
         const task = await Task.findOneAndDelete({_id})
@@ -230,7 +230,7 @@ const uploads = multer({
 
 // })
 /////////
-router.post('/project/avatar',multer({storage:storage}).single('avatar'),async(req,res)=>{
+router.post('/project/avatar',auth,multer({storage:storage}).single('avatar'),async(req,res)=>{
     const url = req.protocol + '://'+ req.get("host");
     var avatar=null
     const file=req.file

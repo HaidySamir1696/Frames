@@ -57,6 +57,8 @@ export class ProjectsService {
   deleteProject(id:string){
     return this.http.delete(this.baseUrl + 'projects/' +id)
   }
-
+  deleteProduct(id:string){
+    return this.http.delete(this.baseUrl + 'products/' +id)
+  }
   //update project
 }
