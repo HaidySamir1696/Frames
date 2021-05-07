@@ -2,7 +2,7 @@
 
 <div>
     <div class="text-center">
-        <h1 class=" yellow">Our projects</h1>
+        <h1 class=" yellow">Sample of our projects</h1>
      </div>
      <div *ngFor="let product of products"  >
          <h3 id={{product._id}}>{{product.title}}</h3>
@@ -13,10 +13,9 @@
             <img src={{project.avatar}} class="card-img-top" alt="1"><br>
             <div class="card-body">
               <h3 class="card-title text-center yellow">{{project.title}}</h3>
-              <h4> {{project.description}}  </h4>
-              <p>{{project.consultant}}</p>
-              <p>{{project.owner}}</p>
-              <p>{{project.location}}</p>
+              <p style="text-align: center;"><span class="projec"> Consultant:</span>{{project.consultant}}</p>
+              <p style="text-align: center;"><span class="projec"> Project Owner:</span>{{project.owner}}</p>
+              <p style="text-align: center;"><span class="projec"> Location:</span>{{project.location}}</p>
               
             </div>
         </div>
