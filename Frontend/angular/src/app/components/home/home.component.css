@@ -15,11 +15,12 @@ img{
   }
 .home-about{
     background-color:#dabe8b;  
-    color:#3f5ca2;
-    padding:3% 10%;  
+    color:white;
+    padding:3% 10%; 
+    font-size: 20px; 
 }
 .home-about h2{
-    color:#3f5ca2;
+    color:white
 
 }
 .blue{

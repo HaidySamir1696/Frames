@@ -12,6 +12,10 @@ import { AddImgComponent } from './admin/add-img/add-img.component';
 import { CompanyProfileComponent } from './components/company-profile/company-profile.component';
 import { AddProductComponent } from './admin/add-product/add-product.component';
 import { ProductAdminComponent } from './admin/product-admin/product-admin.component';
+import { CurtainwallsComponent } from './components/curtainwalls/curtainwalls.component';
+import { DoorswindowsComponent } from './components/doorswindows/doorswindows.component';
+import { CladdingComponent } from './components/cladding/cladding.component';
+import { LouverComponent } from './components/louver/louver.component';
 
 const routes: Routes = [
   {
@@ -64,7 +68,22 @@ const routes: Routes = [
   {
   path:"addProduct",
   component:AddProductComponent
-  }
+  },{
+    path:"Curtain Wall",
+    component:CurtainwallsComponent
+  },{
+    path:"Doors & Windows",
+    component:DoorswindowsComponent
+  },
+  {
+    path:"Cladding",
+    component:CladdingComponent
+  },{
+    path:"Louver",
+    component:LouverComponent
+  },
+
+
 
 ];
 

@@ -5,12 +5,13 @@ import { Project } from 'src/app/interfaces/project';
 import { ProjectsService } from 'src/app/service/projects.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  selector: 'app-cladding',
+  templateUrl: './cladding.component.html',
+  styleUrls: ['./cladding.component.css']
 })
-export class ProjectsComponent implements OnInit {
-projects:Project[]=[]
+export class CladdingComponent implements OnInit {
+
+  projects:Project[]=[]
   constructor(private projectsService:ProjectsService,private route:ActivatedRoute) { }
   getProjects(){
     this.projectsService.getProjects().subscribe((res)=>{

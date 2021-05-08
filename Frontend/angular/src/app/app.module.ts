@@ -26,6 +26,10 @@ import { AddProductComponent } from './admin/add-product/add-product.component';
 import { ProductAdminComponent } from './admin/product-admin/product-admin.component';
 import { NavAdminComponent } from './admin/nav-admin/nav-admin.component';
 import {SlickCarouselModule } from 'ngx-slick-carousel';
+import { DoorswindowsComponent } from './components/doorswindows/doorswindows.component';
+import { CurtainwallsComponent } from './components/curtainwalls/curtainwalls.component';
+import { LouverComponent } from './components/louver/louver.component';
+import { CladdingComponent } from './components/cladding/cladding.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,11 @@ import {SlickCarouselModule } from 'ngx-slick-carousel';
     CompanyProfileComponent,
     AddProductComponent,
     NavAdminComponent,
-    ProductAdminComponent
+    ProductAdminComponent,
+    DoorswindowsComponent,
+    CurtainwallsComponent,
+    LouverComponent,
+    CladdingComponent
     
   ],
   imports: [

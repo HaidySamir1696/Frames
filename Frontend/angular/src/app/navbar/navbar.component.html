@@ -25,7 +25,7 @@
           Projects
         </a>
         <div class="dropdown-menu drop" aria-labelledby="navbarDropdownMenuLink" *ngFor="let product of products">
-          <a *ngFor="let product of products" style="color:rgba(255,255,255,0.5);" class="dropdown-item" routerLink="/projects/{{product._id}}"  >{{product.title}}</a>
+          <a *ngFor="let product of products" style="color:rgba(255,255,255,0.5);" class="dropdown-item" routerLink="/{{product.title}}"  >{{product.title}}</a>
         </div>
       </li>
       <li class="nav-item">
