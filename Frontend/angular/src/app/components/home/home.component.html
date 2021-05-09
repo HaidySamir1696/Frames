@@ -55,12 +55,12 @@
     </a>
   </div>
   
-  <div>
+  <div class="container">
       <div class="text-center">
           <h1 class="blue" style="margin-top: 10px ; font-size:40px ; font-family: Marcellus SC;">What we offer</h1>
       </div>
 
-      <div class="row  g-4 p-3">
+      <div class="row p-3">
           <div  *ngFor="let product of products" class="col-lg-3 col-md-4 col-6 p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <div class="containers m-1">
               <a  routerLink="/{{product.title}}" > <img src={{product.avatar}} alt="product" width="100%" height="250px"></a>
@@ -71,8 +71,8 @@
         
 </div>
 </div>
-    <div class="row home-about">
-      <p class="col-12"><span >
+    <div class="container-fluid home-about">
+      <div><span >
         <div class="text-center">
           <h2>Aluminum and Glass Facade works Company | FRAME</h2>
         <strong > Owner & CEO : Sherif Mamdouh El Saeed </strong></div><br>
@@ -83,7 +83,7 @@
       <p>Up to <strong> 2020 </strong> had covered diversity of residential ,commercial ,industrial ,medical ,military ,recreational and touristic projects.</p>   
   
       </span>
-      </p>
+      </div>
     </div>
     <app-partners></app-partners> 
 </div>

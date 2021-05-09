@@ -1,3 +1,7 @@
+div{
+    box-sizing: border-box; 
+
+}
 h2, .carousel-item h3{
     color:#d5ac5d;
 }
@@ -14,10 +18,11 @@ img{
     background-color: #dabe8b; 
   }
 .home-about{
-    background-color:#dabe8b;  
+    background-color:#dabe8b; 
     color:white;
     padding:3% 10%; 
     font-size: 20px; 
+    width:100%;
 }
 .home-about h2{
     color:white
