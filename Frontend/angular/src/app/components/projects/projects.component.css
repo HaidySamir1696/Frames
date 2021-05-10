@@ -1,3 +1,6 @@
+div{
+    box-sizing: border-box;
+}
 .yellow{
 
     color: #d5ac5d !important
@@ -10,15 +13,17 @@
 }
 h1{
     font-family: Marcellus-SC ;
-    margin:5%
+    padding:3%
 }
 div{
     word-wrap: break-word;
 }
-.projec{
+.project{
     color: rgb(120, 120, 221) !important;
-    margin:5%;
     font-family: Marcellus SC ;
     font-size :20px; 
     text-align: center;
+}
+.card{
+    border:0px !important
 }

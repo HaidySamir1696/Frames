@@ -7,8 +7,9 @@
      <div>
       <div *ngFor="let product of products">
       <h3 class="blue" style="margin-top: 10px ; font-size:40px ; font-family: Marcellus SC;">{{product.title}}</h3>
-      <div class="row  g-4 p-5">
-          <div class="col-lg-12 col-md-12 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="float: left !important;">
+      <div class="container-fluid" >
+
+          <div class="row col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" >
        <ng-container *ngFor="let project of projects" >
           <ng-container *ngIf="project.productID===product.title;">
           <div class="card col-lg-4 col-md-6 col-12"   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="float: left !important;" >
@@ -18,9 +19,9 @@
        <br>
            <div class="card-body">
              <h3 class="card-title text-center yellow">{{project.title}}</h3> 
-             <p style="text-align: center;"><span class="projec"> Consultant:</span>{{project.consultant}}</p>
-             <p style="text-align: center;"><span class="projec"> Project Owner:</span>{{project.owner}}</p>
-             <p style="text-align: center;"><span class="projec"> Location:</span>{{project.location}}</p>
+             <p style="text-align: center;"><span class="project"> Consultant:</span>{{project.consultant}}</p>
+             <p style="text-align: center;"><span class="project"> Project Owner:</span>{{project.owner}}</p>
+             <p style="text-align: center;"><span class="project"> Location:</span>{{project.location}}</p>
            </div>
            </div>
           </ng-container>
