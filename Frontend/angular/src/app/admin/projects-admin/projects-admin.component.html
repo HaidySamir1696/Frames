@@ -39,7 +39,10 @@
        <ng-container *ngFor="let project of projects" >
           <ng-container *ngIf="project.productID===product.title;">
           <div class="card col-lg-4 col-md-6 col-12"   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="float: left !important;" >
-           <img src={{project.avatar}} height="300px" class="card-img-top" alt="1"><br>
+            <ng-container *ngIf="project.avatar!= null;">
+              <img src={{project.avatar}} height="300px" class="card-img-top" alt="1">
+         </ng-container>
+       <br>
            <div class="card-body">
              <h3 class="card-title text-center yellow">{{project.title}}</h3> 
              <p style="text-align: center;"><span class="projec"> Consultant:</span>{{project.consultant}}</p>

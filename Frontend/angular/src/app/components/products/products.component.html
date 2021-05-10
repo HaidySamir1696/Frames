@@ -17,10 +17,16 @@
           <h3 class="yellow text-center">{{product.title}}</h3>
           <p>{{product.description}}</p>
           <div class="text-center">
-          <img class="m-2" width="200px" height="200px" src={{product.avatar1}} alt="slide 1">
-          <img  class="m-2" width="200px" height="200px" src={{product.avatar2}} alt="slide 1">
-          <img  class="m-2" width="200px" height="200px" src={{product.avatar3}} alt="slide 1">
-
+            <div *ngIf="product.avatar1!= null;"  style="float: left;">
+              <img src={{product.avatar1}} height="300px" class="card-img-top" alt="1">
+            </div>
+         <div *ngIf="product.avatar2!= null;" style="float: left;">
+          <img src={{product.avatar2}} height="300px" class="card-img-top" alt="1">
+         </div>
+     <div *ngIf="product.avatar3!= null;">
+      <img src={{product.avatar3}} height="300px" class="card-img-top" alt="1">
+     </div>
+ 
         </div>
 </div>
 </div>
