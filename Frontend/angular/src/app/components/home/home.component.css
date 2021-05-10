@@ -2,8 +2,11 @@ div{
     box-sizing: border-box; 
 
 }
-h2, .carousel-item h3{
+h2{
     color:#d5ac5d;
+}
+ .carousel-item h2{
+    color:#f3e5cd;
 }
 img{
     filter: brightness(50%);
